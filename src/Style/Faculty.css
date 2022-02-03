@@ -1,0 +1,26 @@
+.a-page {
+  width: 30%;
+  margin: auto;
+  height: 400px;
+  margin-top: 4%;
+  text-align: center;
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.u-input {
+  width: 65%;
+  height: 30px;
+  margin-top: 20px;
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+.p-input {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 65%;
+  height: 30px;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+}
