@@ -22,6 +22,9 @@ function HomePage() {
                 </Link>
 
             </div>
+            <div className='footer'>
+                <h4>Contact us : </h4>
+            </div>
         </div>
 
     )
