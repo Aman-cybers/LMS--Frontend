@@ -5,6 +5,7 @@ import Admin from './Components/Admin'
 import Faculty from './Components/Faculty'
 import Student from './Components/Student'
 import AdminPage1 from './Components/AdminPage1'
+import StudentSignup from './Components/StudentSignup'
 
 function Routess() {
     return (
@@ -16,6 +17,7 @@ function Routess() {
                     <Route path='/Faculty' element={<Faculty />}></Route>
                     <Route path='/Student' element={<Student />} />
                     <Route path='/adminHomePage' element={<AdminPage1 />} />
+                    <Route path='/StudentSignup' element={<StudentSignup />} />
                 </Routes>
 
             </div>
