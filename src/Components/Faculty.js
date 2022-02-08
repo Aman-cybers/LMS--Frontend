@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 
 function Faculty() {
     return (
-        <div className='a-page'>
+        <div className='f-page'>
             <h2 className="lms">Learning Management System</h2>
             <h2>Faculty Login</h2>
             <form>

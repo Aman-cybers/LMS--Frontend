@@ -24,3 +24,15 @@
   font-size: 18px;
   font-family: 'Times New Roman', Times, serif;
 }
+.n-b {
+  display: flex;
+  margin-left: 600px;
+  justify-content: space-between;
+}
+.n-b > Button {
+  margin-left: 20px;
+}
+.n-brand {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+}

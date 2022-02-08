@@ -1,0 +1,15 @@
+.s-page {
+  width: 30%;
+  margin: auto;
+  height: 400px;
+  margin-top: 4%;
+  text-align: center;
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+}
+
+.ui-e-input {
+  width: 65%;
+  height: 20px;
+}

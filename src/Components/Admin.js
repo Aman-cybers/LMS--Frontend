@@ -48,7 +48,7 @@ export default class Admin extends Component {
             <div className='a-page'>
                 <h2 className="lms">Learning Management System</h2>
 
-                <h2>Admin Login</h2>
+                <h3>Admin Login</h3>
                 <form onSubmit={this.submitForm}>
                     <input type='text'
                         placeholder='Username'
@@ -67,7 +67,7 @@ export default class Admin extends Component {
                     <br></br>
                     <Button type='submit' variant="contained">Login</Button>
                     <br /><br /><br />
-                    <h4>To add Admin contact to lms@lms.com</h4>
+                    <h5>To add Admin contact to lms@lms.com</h5>
                 </form>
             </div>
 

@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Button from '@mui/material/Button';
 import '../Style/StudentSignup.css'
 
-function StudentSignup() {
+
+function FacultySignup() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('')
     const [username, setUsername] = useState('')
@@ -11,7 +12,7 @@ function StudentSignup() {
 
     async function registerUser(event) {
         event.preventDefault()
-        const response = await fetch('http://localhost:1337/api/register', {
+        const response = await fetch('http://localhost:1337/api/register/faculty', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -30,7 +31,7 @@ function StudentSignup() {
         <div>
             <div className='a-page'>
                 <h2 className="lms">Learning Management System</h2>
-                <h2>Student Signup by admin</h2>
+                <h2>Faculty Signup by admin</h2>
                 <form onSubmit={registerUser}>
                     <input value={name}
                         onChange={(e) => setName(e.target.value)}
@@ -67,4 +68,4 @@ function StudentSignup() {
         </div>
     )
 }
-export default StudentSignup;
+export default FacultySignup;
